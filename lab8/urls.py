@@ -20,5 +20,5 @@ from app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path(r'', views.set_status, name='set-status'),
+    path(r'api/shipment', views.set_status, name='set-status'),
 ]
